@@ -1,5 +1,5 @@
 import { BrowserRouter } from 'react-router-dom';
-
+import { Helmet } from 'react-helmet';
 
 import {About, Contact, Experience, Feedbacks, Hero, Navbar, Tech, Works, StarsCanvas } from './components';
 
@@ -8,6 +8,8 @@ import {About, Contact, Experience, Feedbacks, Hero, Navbar, Tech, Works, StarsC
   return (
     <>
       <BrowserRouter>
+         {/* Helmet for metadata */}
+        
       <div className="relative z-0 bg-primary">
         <div className="bg-hero-pattern bg-cover bg-no-repeat bg-center">
           <Navbar />
