@@ -10,7 +10,7 @@ const Computers = ( { isMobile}) => {
 
   // Clean up resources to avoid memory leaks
   useEffect(() => {
-    return () => {
+    return () => { 
       if (computer.scene) {
         computer.scene.traverse((child) => {
           if (child.geometry) child.geometry.dispose();
@@ -75,7 +75,7 @@ const ComputersCanvas = () => {
     <Canvas
       frameloop="demand"
       shadows
-      camera={{ position: [20, 3, 5], fov: 25 }}
+      camera={{ position: [20, 3, 5], fov:55  }}
       gl={{ preserveDrawingBuffer: true }}
     >
       <Suspense fallback={<CanvasLoader />}>
