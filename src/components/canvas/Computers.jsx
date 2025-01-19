@@ -3,11 +3,16 @@ import React, { Suspense, useEffect, useState } from "react";
 import { Canvas } from "@react-three/fiber";
 import { OrbitControls, Preload, useGLTF } from "@react-three/drei";
 
+import * as THREE from 'three';
 import CanvasLoader from "../Loader";
 
 const Computers = ({ isMobile }) => {
   const computer = useGLTF("./desktop_pc/scene.gltf");
+  console.log(computer)
 
+// Check if the computer.scene object has a geometry attribute
+if (computer.scene.children[0].geometry) {
+  // If it does, render the mesh as usual
   return (
     <mesh>
       <hemisphereLight intensity={0.15} groundColor='black' />
@@ -28,7 +33,13 @@ const Computers = ({ isMobile }) => {
       />
     </mesh>
   );
+} else {
+  // If it doesn't, render a placeholder or an error message
+<div>Error: No geometry attribute found</div>;
+}
+
 };
+
 
 const ComputersCanvas = () => {
   const [isMobile, setIsMobile] = useState(false);
