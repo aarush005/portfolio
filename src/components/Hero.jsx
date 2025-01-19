@@ -9,10 +9,17 @@ import { style } from "framer-motion/client";
 
 
 const Hero = () => {
-  const [isMobile, setIsMobile] = useState(false);
+  // Set the initial state based on the current window width
+  const [isMobile, setIsMobile] = useState(() => window.innerWidth <= 768);
 
   useEffect(() => {
-    setIsMobile(window.innerWidth <= 768);
+    const handleResize = () => setIsMobile(window.innerWidth <= 768);
+
+    // Add event listener for resize
+    window.addEventListener('resize', handleResize);
+
+    // Cleanup event listener on component unmount
+    return () => window.removeEventListener('resize', handleResize);
   }, []);
 
   return (
@@ -41,7 +48,7 @@ const Hero = () => {
           </p>
         </div>
       </div>
-      {/* <ComputersCanvas /> */}
+      {!isMobile && <ComputersCanvas />}  {/* Only render on non-mobile devices */}
 
       <div className='absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center'>
         <a href='#about'>
