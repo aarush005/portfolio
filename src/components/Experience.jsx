@@ -10,6 +10,7 @@ import { styles } from "../styles";
 import { experiences } from "../constants";
 import { SectionWrapper } from "../hoc";
 import { textVariant } from "../utils/motion";
+import { samp } from "framer-motion/client";
 
 const ExperienceCard = ({ experience}) => (
   <VerticalTimelineElement contentStyle={{ background: '#1d1836', color: '#fff'}}
@@ -31,7 +32,7 @@ const ExperienceCard = ({ experience}) => (
 
       <ul className="mt-5 list-disc ml-5 spae-y-2">
         {experience.points.map((point,index)=> (
-          <li key={`expirence-point-${index}`} className="text-white-100  text-[14px] pl-1 tracking-wider">
+          <li key={`expirence-point-${index}`} className="text-white-100  text-[18px] pl-1 tracking-wider">
             {point}
           </li>
         ))}
@@ -51,6 +52,7 @@ const Experience = () => {
       <div className='mt-20 flex flex-col'>
         <VerticalTimeline>
           {experiences.map((experience, index) => (
+            
             <ExperienceCard
               key={`experience-${index}`}
               experience={experience}

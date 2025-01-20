@@ -29,6 +29,9 @@ const Computers = () => {
   );
 };
 
+
+
+
 const ComputersCanvas = () => {
   const isMobile = window.innerWidth <= 500; // Simple check for screen width
 
