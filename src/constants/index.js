@@ -47,15 +47,15 @@ import {
       icon: web,
     },
     {
-      title: "React Native Developer",
+      title: "Freelance Developer",
       icon: mobile,
     },
     {
-      title: "Backend Developer",
+      title: "30+ Projects",
       icon: backend,
     },
     {
-      title: "Content Creator",
+      title: "3+ Year Experience",
       icon: creator,
     },
   ];
@@ -117,15 +117,16 @@ import {
   
   const experiences = [
     {
-      title: "React.js Developer",
+      title: "WordPress Website Developer",
       company_name: "Starbucks",
       icon: starbucks,
       iconBg: "#383E56",
-      date: "March 2020 - April 2021",
+      date: "August 2021 - Present",
       points: [
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Over 3 years of freelancing experience creating dynamic and responsive WordPress websites.",
+        "Delivered major projects, including e-commerce stores, corporate sites, educational platforms, and creative portfolios.",
+        "Specialized in custom themes, plugin integration, SEO optimization, and performance tuning.",
+        "Successfully completed 20+ projects, enhancing client businesses with user-friendly and functional websites."
       ],
     },
     {
@@ -133,40 +134,40 @@ import {
       company_name: "Tesla",
       icon: tesla,
       iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
+      date: "March 2022 - Present",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Designed and built 10+ websites from scratch using HTML, CSS, Bootstrap, Tailwind, JavaScript, React, and TypeScript, ensuring a seamless user experience",
+        "Created secure backend systems and scalable databases with PHP and SQL, improving reliability",
+        "Developed custom admin dashboards, reducing client workload by 30% through automated workflows and real-time analytics",
+        "Delivered responsive, scalable, and user-focused web solutions tailored to client needs.",
       ],
     },
-    {
-      title: "Web Developer",
-      company_name: "Shopify",
-      icon: shopify,
-      iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "Full stack Developer",
-      company_name: "Meta",
-      icon: meta,
-      iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
+    // {
+    //   title: "Web Developer",
+    //   company_name: "Shopify",
+    //   icon: shopify,
+    //   iconBg: "#383E56",
+    //   date: "Jan 2022 - Jan 2023",
+    //   points: [
+    //     "Designed and built 10+ websites from scratch using HTML, CSS, Bootstrap, Tailwind, JavaScript, React, and TypeScript, ensuring a seamless user experience",
+    //     "Created secure backend systems and scalable databases with PHP and SQL, improving reliability",
+    //     "Developed custom admin dashboards, reducing client workload by 30% through automated workflows and real-time analytics",
+    //     "Delivered responsive, scalable, and user-focused web solutions tailored to client needs.",
+    //   ],
+    // },
+    // {
+    //   title: "Full stack Developer",
+    //   company_name: "Meta",
+    //   icon: meta,
+    //   iconBg: "#E6DEDD",
+    //   date: "March 2022 - Present",
+    //   points: [
+    //     "Developing and maintaining web applications using React.js and other related technologies.",
+    //     "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+    //     "Implementing responsive design and ensuring cross-browser compatibility.",
+    //     "Participating in code reviews and providing constructive feedback to other developers.",
+    //   ],
+    // },
   ];
   
   const testimonials = [
