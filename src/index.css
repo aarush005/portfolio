@@ -10,10 +10,18 @@
 
 *
 */
-@font-face {
+/* @font-face {
   font-family: 'Segment-Regular';
-  src: url('../fonts/Segment-Regular.woff2') format('woff2');
+  src: url('./assets/Fonts/Segment-Regular.woff2') format('woff2'),
+  url('./assets/Fonts/Segment-Regular.woff') format('woff'),
+  url('./assets/Fonts/Segment-Regular.ttf') format('truetype');
   font-weight: 400;
+  font-display: swap;
+  font-style: normal;
+} */
+@font-face {
+  font-family: 'JetBrainsMono';
+  src: url('./assets/Fonts/JetBrainsMono-Light.woff2') format('woff2');
   font-display: swap;
   font-style: normal;
 }

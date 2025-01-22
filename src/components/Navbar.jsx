@@ -7,7 +7,7 @@ import { logo, menu, close } from "../assets";
 import { li } from "framer-motion/client";
 
 
-
+ 
 const Navbar = () => {
   const [active, setActive] = useState("") 
     const [toggle, setToggle] = useState(false);
