@@ -118,7 +118,7 @@ import {
   const experiences = [
     {
       title: "WordPress Website Developer",
-      company_name: "Starbucks",
+      company_name: "Freelancer",
       icon: starbucks,
       iconBg: "#383E56",
       date: "August 2021 - Present",
@@ -130,8 +130,8 @@ import {
       ],
     },
     {
-      title: "React Native Developer",
-      company_name: "Tesla",
+      title: "Website Developer (From Scratch)",
+      company_name: "Freelancer",
       icon: tesla,
       iconBg: "#E6DEDD",
       date: "March 2022 - Present",
@@ -199,7 +199,7 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "Evergreen Power Solar",
       description:
         "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
       tags: [
