@@ -65,7 +65,7 @@ const Works = () => {
           variants={fadeIn("", "", 0.1, 1 )}
           className="mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]"
           >
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni blanditiis, eaque optio, enim eveniet ducimus iure laudantium non, aliquam inventore molestias distinctio delectus vero. Maiores molestiae nihil voluptates eaque sequi? Dolorem soluta nostrum id quasi temporibus quod provident laudantium eaque numquam obcaecati animi quas, nobis, cumque qui quibusdam maxime quia aliquam? Doloribus, unde eius.
+            I have worked on various projects ranging from full-stack web applications to data visualization dashboards. My experience includes developing dynamic websites, interactive dashboards, and custom web solutions. Below are some of my featured projects that showcase my skills in web development, WordPress, React
           </motion.p>
           </div>
 

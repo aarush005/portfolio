@@ -18,7 +18,7 @@ import {About, Contact, Experience, Feedbacks, Hero, Navbar, Tech, Works, StarsC
         <Experience />
         <Tech />
         <Works />
-        <Feedbacks />
+        {/* <Feedbacks /> */}
         <div className="relative z-0">
           <Contact />
           <StarsCanvas />
