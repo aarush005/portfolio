@@ -201,39 +201,39 @@ import {
     {
       name: "Evergreen Power Solar",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
-      tags: [
-        {
-          name: "react",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "mongodb",
-          color: "green-text-gradient",
-        },
-        {
-          name: "tailwind",
-          color: "pink-text-gradient",
-        },
-      ],
+        "Evergreen Power Solar is a professionally crafted WordPress website designed to showcase solar energy solutions. It features a clean layout, engaging visuals, and easy navigation, ensuring a user-friendly experience. The site highlights services, products, and benefits, making it an effective platform for customers to explore renewable energy options.",
+        tags: [
+          {
+            name: "wordpress",
+            color: "blue-text-gradient",
+          },
+          {
+            name: "css",
+            color: "green-text-gradient",
+          },
+          {
+            name: "php",
+            color: "pink-text-gradient",
+          },
+        ],
       image: carrent,
       source_code_link: "https://github.com/",
     },
     {
-      name: "TheGreyheron",
+      name: "Soil to Soul Resorts",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "Soil to Soul Resorts is a beautifully designed website built on WordPress, showcasing a serene and luxurious retreat experience. It features an intuitive layout, engaging visuals, and seamless navigation, ensuring a smooth user experience. The site effectively highlights the resort’s offerings, amenities, and booking options, making it an ideal platform for visitors to explore and plan their stay.",
       tags: [
         {
-          name: "react",
+          name: "wordpress",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "css",
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "php",
           color: "pink-text-gradient",
         },
       ],
@@ -243,21 +243,21 @@ import {
     {
       name: "PinkCityArts",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-      tags: [
-        {
-          name: "nextjs",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "supabase",
-          color: "green-text-gradient",
-        },
-        {
-          name: "css",
-          color: "pink-text-gradient",
-        },
-      ],
+        "Pink City Arts is an elegantly designed WordPress website that highlights artistic and handcrafted products. With a visually appealing layout, smooth navigation, and engaging content, it effectively showcases the brand’s unique creations, making it a perfect platform for art enthusiasts and buyer.",
+        tags: [
+          {
+            name: "wordpress",
+            color: "blue-text-gradient",
+          },
+          {
+            name: "css",
+            color: "green-text-gradient",
+          },
+          {
+            name: "php",
+            color: "pink-text-gradient",
+          },
+        ],
       image: tripguide,
       source_code_link: "https://github.com/",
     },
