@@ -1,27 +1,21 @@
 import { defineConfig } from "vite";
 import react from "@vitejs/plugin-react";
-import { visualizer } from "rollup-plugin-visualizer";
 import viteCompression from "vite-plugin-compression";
 
 export default defineConfig({
   plugins: [
     react(),
 
-    // 📊 (Optional) Analyze bundle size after build
-    // visualizer({ open: true }),
-
-    // 🗜️ Generate compressed .gz and .br files for Netlify
+    // Generate gzip + brotli compressed files
     viteCompression({
-      algorithm: "brotliCompress", // creates both gzip and brotli
+      algorithm: "brotliCompress",
       ext: ".br",
-      threshold: 1024, // only compress files > 1KB
-      deleteOriginFile: false, // keep original .js and .css
+      threshold: 1024,
     }),
     viteCompression({
       algorithm: "gzip",
       ext: ".gz",
       threshold: 1024,
-      deleteOriginFile: false,
     }),
   ],
 
@@ -41,9 +35,5 @@ export default defineConfig({
         assetFileNames: "assets/[name]-[hash].[ext]",
       },
     },
-  },
-
-  server: {
-    open: true,
   },
 });
